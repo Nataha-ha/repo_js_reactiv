@@ -18,19 +18,14 @@ export default function Input({
         setValue('');
     }, [onAddMessage, value]);
 
-    return ( < form onSubmit = {
-            handleSubmit
-        } >
-        <
-        input type = 'text'
+    return ( < form onSubmit = { handleSubmit } >
+        < input type = 'text'
         onChange = {
             handleChange
         }
         value = {
             value
-        }
-        /> <
-        input type = 'submit' / >
-        <
-        /form>)
+        } />   
+    < input type = 'submit' / >
+        </form>)
     }

@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export default class Child extends React.Component {
+
         componentWillMount() {
             console.log('Child componentWillMount');
         }

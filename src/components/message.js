@@ -3,9 +3,9 @@ import React from 'react';
 export default function Message({
     message
 }) {
-    return ( < div > {
+    return ( <div> {
             message.text
         }: {
             message.author
-        } < /div>)
+        } </div>)
     }
