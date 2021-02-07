@@ -1,0 +1,44 @@
+{
+  "name": "repo_js_reactiv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nataha-ha/repo_js_reactiv.git"
+  },
+  "keywords": [],
+  "author": "Nataha-ha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nataha-ha/repo_js_reactiv/issues"
+  },
+  "homepage": "https://github.com/Nataha-ha/repo_js_reactiv#readme",
+  "dependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^5.0.1",
+    "node-sass": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.2.0",
+    "sass-loader": "^10.1.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.1",
+    "mini-css-extract-plugin": "^1.3.5",
+    "prettier": "2.2.1"
+  }
+}
