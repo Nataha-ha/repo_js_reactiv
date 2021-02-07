@@ -6,7 +6,7 @@ import React, {
 import Message from './message.js';
 import Input from './input.js';
 import Button from './button';
-import "./app.scss";
+
 
 // export default class App extends React.Component {
 //         state = {

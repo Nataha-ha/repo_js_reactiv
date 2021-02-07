@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route, Link, useParams } from "react-r
 import App from "./app";
 import About from "./about";
 import Topics from "./topics";
-import "./router.scss";
 
 export default function Routes() {
   return (
